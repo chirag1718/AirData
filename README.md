@@ -1,19 +1,19 @@
-# To solve the problem, I made the following changes to the code:
-
-## In the App component:
+## To solve the problem, I made the following changes to the code:
+### Open live link [https://air-data.vercel.app](https://air-data.vercel.app) to view it in your browser.
+### In the App component:
 
 - Imported the Loader component.
 - Added the `loading` state variable and `setLoading`  function to manage the `loading state`.
 - Passed the `setUsers` and `setLoading` functions as `props` to the Navbar component.
 - Conditionally rendered either the Loader component or the UserGrid component based on the loading state.
-## In the UserGrid component:
+### In the UserGrid component:
 
 - Imported the CSS file for styling.
 - Added an `img` tag to display the user's avatar.
 - Updated the `users.map` function to properly render the user data.
 - Used the `user.id` as the unique key for each user card.
 
-## In the Navbar component:
+### In the Navbar component:
 
 - Added the setUsers and setLoading props to access the state functions from the parent component.
 - Updated the handleClick function to set the loading state to true before making the API request and set it back to false after receiving the response.
