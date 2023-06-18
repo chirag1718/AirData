@@ -8,14 +8,10 @@ const Navbar = ({ setUsers, setLoading }) => {
     setUsers(response.data.data);
     setLoading(false);
   };
-  const handleReset = () => {
-    setUsers([]);
-  };
-  
   return (
     <div className="navbar-container">
       <div className="navbar">
-        <div className="logo" onClick={handleReset}>
+        <div className="logo" >
           AirData
         </div>
         <div>
