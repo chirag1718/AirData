@@ -1,5 +1,6 @@
 ## To solve the problem, I made the following changes to the code:
 ### Open live link [https://air-data.vercel.app](https://air-data.vercel.app) to view it in your browser.
+- It took me approximately 30 to 45 minutes ⏱️ to make the project and deploy it 🚀
 ### In the App component:
 
 - Imported the Loader component.
